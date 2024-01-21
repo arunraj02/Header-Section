@@ -1,0 +1,54 @@
+/* Mobile View */
+@media (min-width:320px) and (max-width:767px){
+    .mob-nav{
+        display: block;
+        padding: 4px 0 0 16px;
+        font-size: 20px;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .header-col3{
+        display: flex;
+        justify-content:end;
+    }
+
+    .but button{
+        padding: 4px 12px;
+        font-size: 12px;
+    }
+
+    .logo p{
+        font-size: 24px;
+    }
+}
+
+/* Tab View */
+@media (min-width:768px) and (max-width:991px){
+    .mob-nav{
+        display: block;
+        padding: 4px 0 0 16px;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .header-col3{
+        display: flex;
+        justify-content:end;
+    }
+}
+
+/* Desktop View */
+@media (min-width:992px){
+    .navbar{
+        display: block;
+    }
+
+    .mob-nav{
+        display: none;
+    }
+}
